@@ -1,10 +1,10 @@
 # Status Events and Conditions
 
-To make it easier for users to understand and debug the etcd-operator, the actions of the operator and the state of the cluster are communicated to the user in the standard Kubernetes convention.
+To make it easier for users to understand and debug the etcd operator, the actions of the operator and the state of the cluster are communicated to the user in the standard Kubernetes convention.
 
 Use `kubectl describe` to view information about an object, including [Events][k8s-events] and [Conditions][k8s-conditions] associated with the resource.
 
-The etcd-operator exposes the Events and Conditions for each EtcdCluster Custom Resource.
+The etcd operator exposes the Events and Conditions for each EtcdCluster Custom Resource.
 
 ## Events
 
